@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  position: relative;
+  background-color: #f2f2f2; 
+  padding: 50px 0;
+}
+
+.name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4rem;
+  color: #0099ff; 
+  margin: 0;
+  transition: color 0.5s ease, transform 0.5s ease;
+}
+
+/* Header Animation */
+.name.animate {
+  color: #c0a6e8; 
+  transform: scale(1.1); 
+}
+
+.subheading {
+  color: #c0a6e8; 
+}
+
+/* Section Styles */
+h3 {
+  color: #0099ff; 
+  border-bottom: 2px solid #0099ff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+a.btn-primary {
+  background-color: #0099ff; 
+  border-color: #0099ff; 
+  color: white; 
+}
+
+a.btn-primary:hover {
+  background-color: #007acc; 
+  border-color: #007acc; 
+}
+
+footer {
+  background-color: #f2f2f2; 
+  padding: 20px 0;
+}
+
+footer .btn-secondary {
+  background-color: #c0a6e8; 
+  border-color: #c0a6e8; 
+  color: white; 
+}
+
+footer .btn-secondary:hover {
+  background-color: #a892c0; 
+  border-color: #a892c0;
+}
+
+/* Image Styles */
+img.top-image {
+  position: absolute;
+  top: 10px;
+  width: 100px;
+}
+
+img.top-image.left {
+  left: 10px;
+}
+
+img.top-image.right {
+  right: 10px;
+}
